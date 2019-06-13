@@ -1,0 +1,46 @@
+<?php
+echo '<table width="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0" style="border: 1px solid #738375;">';
+echo	'<tr>';
+echo		'<td colspan=3 height="20" class="tabletovar">&nbsp;</td>';
+echo 	'</tr>';
+echo	'<tr>';
+echo		'<td colspan=3 height="100" >&nbsp;</td>';
+echo 	'</tr>';
+echo	'<tr>';
+echo		'<td colspan=3 align="center"><span class="precukatalogs">Paplašināta meklēšana<span></td>';
+echo 	'</tr>';
+echo	'<tr>';
+echo		'<td colspan=3 height="50">&nbsp;</td>';
+echo 	'</tr>';
+echo	'<form action="../tpl_a4.php?page=77&prf='.$prf.'" method="POST">';
+echo	'<tr>';
+echo	 	'<td width="50"  height="40">&nbsp;</td>';
+echo 		'<td width="200" align="right">';
+echo 			'<span class="tovarcat">preces nosaukums&nbsp;&nbsp;<span>';
+echo 		'</td>';
+echo 		'<td align="left">';
+echo 			'<input type="text" name="find_nosauk" value=""	size="50" maxlength="100" valign="top">';
+echo 		'</td>';
+echo 	'</tr>';
+echo	'<tr>';
+echo	 	'<td width="50"  height="40">&nbsp;</td>';
+echo 		'<td width="200" align="right">';
+echo 			'<span class="tovarcat">preces kods&nbsp;&nbsp;<span>';
+echo 		'</td>';
+echo 		'<td align="left">';
+echo 			'<input type="text" name="find_kods" value=""	size="50" maxlength="100" valign="top">';
+echo 		'</td>';
+echo 	'</tr>';
+echo	'<tr>';
+echo	 	'<td colspan=3 align="center" height="40">';
+echo 			'<input type="hidden" name="advfind" value="1">';
+echo			'<input type=submit value=" Meklēt " name="meklet">';
+echo 		'</td>';
+echo 	'</tr>';
+echo 	'</form>';
+echo	'<tr>';
+echo		'<td colspan=3 height="100" >&nbsp;</td>';
+echo 	'</tr>';
+echo '</table>';
+
+
