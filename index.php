@@ -33,16 +33,13 @@ Error_Reporting(E_ALL & ~E_NOTICE);
 
     				
 						<?php
-					//	$dbhost = 'localhost';
-						//$dbusername = 'root';
-					//	$dbpass = '';
-					//	$dbname = 'a4plus';
-						
-						
 						$dbhost = 'localhost';
-$dbusername = 'likbez_likbez';
-$dbpass = 'l2i0k0b97';
-$dbname = 'likbez_komuza';
+						$dbusername = 'root';
+						$dbpass = '';
+						$dbname = 'a4plus';
+						
+						
+						
 						
 						
 
