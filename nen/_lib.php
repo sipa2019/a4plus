@@ -2,17 +2,7 @@
 function connectToBd()
 {
 global $dbhost,$dbusername,$dbpass,$dbname;
-//test
-//$dbhost = "cirslis.sigmanet.lv:6603";
-//$dbusername = "nikasan";
-//$dbpass = "bhbMLU48";
-//$dbname = "c_nikasan";
-
-//$dbhost = "cirslis.sigmanet.lv:6603";
-//$dbusername = "a4plusw";
-//$dbpass = "zBCh4G5y";
-//$dbname = "c_a4plusw";
-
+/
 
 $dbhost = 'localhost';
 $dbusername = 'root';
